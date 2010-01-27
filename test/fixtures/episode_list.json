@@ -1,0 +1,170 @@
+[{
+    "episode": {
+        "s3": true,
+        "artist": "Adam Stacoviak and Wynn Netherland",
+        "updated_at": "2010-01-25T14:36:42-05:00",
+        "size": 37400482,
+        "title": "Episode 0.1.0 - Chris Wanstrath from GitHub",
+        "tags": "git, github, interview, bootstrapping, business, startups",
+        "date": "2010-01-25",
+        "podcast_id": 105,
+        "live": true,
+        "id": 2274,
+        "description": "Adam and Wynn talk with Chris Wanstrath aka @defunkt from GitHub about the magic of Git, the past, present and future of GitHub, building a bootstrapped startup and some other cool stuff you'll just have to hear for yourself.",
+        "duration": 4675,
+        "created_at": "2010-01-25T12:53:02-05:00"
+    }
+},
+{
+    "episode": {
+        "s3": true,
+        "artist": "Adam Stacoviak and Wynn Netherland",
+        "updated_at": "2010-01-25T16:31:21-05:00",
+        "size": 10392587,
+        "title": "Episode 0.0.9 - Fix-me, Configliere, and more Node.js",
+        "tags": "node-js, javascript, news, ruby, css",
+        "date": "2010-01-19",
+        "podcast_id": 105,
+        "live": true,
+        "id": 2190,
+        "description": "Adam and Wynn ran down some news highlights with Marshall Culpepper from Appcelerator.",
+        "duration": 1299,
+        "created_at": "2010-01-19T22:06:02-05:00"
+    }
+},
+{
+    "episode": {
+        "s3": true,
+        "artist": "Adam Stacoviak and Wynn Netherland",
+        "updated_at": "2010-01-14T11:01:27-05:00",
+        "size": 25148636,
+        "title": "Episode 0.0.8 - Marshall Culpepper from Appcelerator Titanium",
+        "tags": "javascript, mobile, ruby, python, php, interview",
+        "date": "2010-01-14",
+        "podcast_id": 105,
+        "live": true,
+        "id": 2131,
+        "description": "Adam and Wynn spoke with Marshall Culpepper from Appcelerator about their open source projects Titanium Desktop and Titanium Mobile. ",
+        "duration": 3143,
+        "created_at": "2010-01-14T10:50:28-05:00"
+    }
+},
+{
+    "episode": {
+        "s3": true,
+        "artist": "Adam Stacoviak and Wynn Netherland",
+        "updated_at": "2009-12-17T10:33:18-05:00",
+        "size": 19880469,
+        "title": "Episode 0.0.7 - Mike Dirolf from 10gen and MongoDB",
+        "tags": "mongodb, ruby, python, nosql, javascript, 10gen, jobs",
+        "date": "2009-12-17",
+        "podcast_id": 105,
+        "live": true,
+        "id": 1959,
+        "description": "Adam and Wynn spoke with Mike Dirolf from 10gen about their fast-growing MongoDB project. Mike gave us insight on how MongoDB came about, design decisions, and the future of this cool NoSQL server.",
+        "duration": 2485,
+        "created_at": "2009-12-17T10:25:27-05:00"
+    }
+},
+{
+    "episode": {
+        "s3": true,
+        "artist": "Adam Stacoviak and Wynn Netherland",
+        "updated_at": "2009-12-15T11:20:57-05:00",
+        "size": 22376939,
+        "title": "Episode 0.0.6 - Steven Bristol from LessEverything and weekly news",
+        "tags": "guest-hosts, javascript, ruby, rack, rails, erlang, twitter, less",
+        "date": "2009-12-15",
+        "podcast_id": 105,
+        "live": true,
+        "id": 1935,
+        "description": "In this episode, Adam, Wynn, and Steven Bristol discuss Erlang, Javascript on the server, Lighthouse, Docsplit, Rackamole/whackamole, unfollowing under-performing Twitter peeps, and suing domain squatters.",
+        "duration": 2797,
+        "created_at": "2009-12-15T11:11:04-05:00"
+    }
+},
+{
+    "episode": {
+        "s3": true,
+        "artist": "Adam Stacoviak and Wynn Netherland",
+        "updated_at": "2009-12-06T21:08:00-05:00",
+        "size": 17208247,
+        "title": "Episode 0.0.5 - DocumentCloud",
+        "tags": "javascript, open source, rails, ruby, media",
+        "date": "2009-12-06",
+        "podcast_id": 105,
+        "live": true,
+        "id": 1908,
+        "description": "We interviewed Jeremy Ashkenas Lead Developer at DocumentCloud about their effort to revolutionize the way media organizations gather news. Jeremy discusses their open source projects CloudCrowd, Underscore.js, and JAMMIT that they've released along the way.  ",
+        "duration": 2151,
+        "created_at": "2009-12-06T21:00:33-05:00"
+    }
+},
+{
+    "episode": {
+        "s3": true,
+        "artist": "Adam Stacoviak and Wynn Netherland",
+        "updated_at": "2009-12-01T13:38:09-05:00",
+        "size": 14668518,
+        "title": "Episode 0.0.4 - Chrome OS, Thor, and ROaR (30:34)",
+        "tags": "google, handbrake, osx, ruby, rails, javascript, thor, testing",
+        "date": "2009-12-01",
+        "podcast_id": 105,
+        "live": true,
+        "id": 1876,
+        "description": "In this episode we discuss: <a href=\"http://thechangelog.com/post/255853114/google-chrome-os-chromium-os\">Google Chrome OS</a>, <a href=\"http://thechangelog.com/post/256716884/handbrake-0-9-4-released-64-bit-support\">HandBrake 0.9.4</a>, <a href=\"http://thechangelog.com/post/258093819/functional-cocoa-applications-using-webkit\">CocoUI</a>, <a href=\"http://thechangelog.com/post/259540919/rails-2-3-5-released\">Rails 2.3.5</a>, <a href=\"http://thechangelog.com/post/259598588/restler-for-node-js\">Restler</a> &amp; <a href=\"http://thechangelog.com/post/261021600/nodejs-evented-i-o-for-v8-javascript\">Node.js</a>, <a href=\"http://thechangelog.com/post/259987077/riot-an-extremely-fast-running-unit-testing\">Riot</a>, <a href=\"http://thechangelog.com/post/260932630/thor-git-make-developing-with-git-easier\">Thor-Git</a> and <a href=\"http://thechangelog.com/post/261042337/webroar-ruby-rack-rails-application-server\">WebROaR</a>",
+        "duration": 1833,
+        "created_at": "2009-12-01T13:31:49-05:00"
+    }
+},
+{
+    "episode": {
+        "s3": true,
+        "artist": "Adam Stacoviak and Wynn Netherland",
+        "updated_at": "2009-11-27T14:52:18-05:00",
+        "size": 10404498,
+        "title": "Episode 0.0.3 - Google's Go Programming Language",
+        "tags": "go, programing language, google, go code",
+        "date": "2009-11-27",
+        "podcast_id": 105,
+        "live": true,
+        "id": 1861,
+        "description": "We spoke with <a href=\"http://research.google.com/people/r/\">Rob Pike</a>, Principal Engineer at Google and Tech Lead for the <a href=\"http://go-lang.org/\">Google Go</a> team about <a href=\"http://go-lang.org/\">Go</a>.",
+        "duration": 1300,
+        "created_at": "2009-11-27T06:10:10-05:00"
+    }
+},
+{
+    "episode": {
+        "s3": true,
+        "artist": "Adam Stacoviak and Wynn Netherland",
+        "updated_at": "2009-11-30T11:54:21-05:00",
+        "size": 10312338,
+        "title": "Episode 0.0.2 - First weekly show",
+        "tags": "asset packaging, javascript, browser, buttons, compass, sass, google go",
+        "date": "2009-11-25",
+        "podcast_id": 105,
+        "live": true,
+        "id": 1859,
+        "description": "In this episode we discuss: JAMMIT - Rails plugin for asset packaging, Underscore.js the bowtie for jQuery's tux, Google Go, Firefox 3.6 beta 2, Google Chrome OS and creating \"fancy buttons\" with Compass and Sass.",
+        "duration": 1289,
+        "created_at": "2009-11-26T05:27:48-05:00"
+    }
+},
+{
+    "episode": {
+        "s3": true,
+        "artist": "Adam Stacoviak and Wynn Netherland",
+        "updated_at": "2009-11-25T17:21:08-05:00",
+        "size": 28656567,
+        "title": "Episode 0.0.1 - Haml Sass and Compass",
+        "tags": "haml, sass, compass, web design, front-end development, css",
+        "date": "2009-11-19",
+        "podcast_id": 105,
+        "live": true,
+        "id": 1805,
+        "description": "Wynn and I discuss <a href=\"http://haml-lang.com/\">Haml</a>, <a href=\"http://sass-lang.com/\">Sass</a> and <a href=\"http://compass-style.org/\">Compass</a> with the core developers Nathan Weizenbaum (@nex3) and Chris Eppstein (@chriseppstein).",
+        "duration": 3582,
+        "created_at": "2009-11-19T13:14:24-05:00"
+    }
+}]

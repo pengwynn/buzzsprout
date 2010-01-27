@@ -5,13 +5,19 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "buzzsprout"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Ruby wrapper for the stealth mode Buzzsprout API}
+    gem.description = %Q{Ruby wrapper for the stealth mode Buzzsprout API}
     gem.email = "wynn.netherland@gmail.com"
     gem.homepage = "http://github.com/pengwynn/buzzsprout"
     gem.authors = ["Wynn Netherland"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.add_dependency('activesupport', '>= 2.3.2')
+    gem.add_dependency('hashie', '>= 0.1.3')
+    gem.add_dependency('httparty', '>= 0.5.0')
+
+    gem.add_development_dependency('thoughtbot-shoulda', '>= 2.10.1')
+    gem.add_development_dependency('jnunemaker-matchy', '0.4.0')
+    gem.add_development_dependency('fakeweb', '>= 1.2.5')
+    gem.add_development_dependency "yard", ">= 0"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError

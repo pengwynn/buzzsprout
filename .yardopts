@@ -1,0 +1,7 @@
+--readme          README.md
+--markup          markdown
+--markup-provider rdiscount
+--default-return  nil
+-p ../yardoc_templates
+-o ../../sites/wynn/public/projects/buzzsprout/api
+--no-private

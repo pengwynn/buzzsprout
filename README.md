@@ -8,19 +8,19 @@ Ruby wrapper for the (yet unreleased, undocumented) [Buzzsprout](http://buzzspro
     
 ## Usage
 
-### Getting a list of episodes
+Getting a list of episodes
 
     # get your podcast ID from your RSS feed http://www.buzzsprout.com/105.rss
     >> Buzzsprout.episodes(105)
     => [<#Buzzsprout::Episode artist="Adam Stacoviak and Wynn Netherland" created_at=Mon Jan 25 11:53:02 -0600 2010 date=Mon, 25 Jan 2010 description="Adam and Wynn talk with Chris Wanstrath aka @defunkt from GitHub about the magic of Git, the past, present and future of GitHub, building a bootstrapped startup and some other cool stuff you'll just have to hear for yourself." duration=4675 id=2274 live=true podcast_id=105 s3=true size=37400482 tags="git, github, interview, bootstrapping, business, startups" title="Episode 0.1.0 - Chris Wanstrath from GitHub" updated_at=Mon Jan 25 13:36:42 -0600 2010>]
     
 
-### Get a list of tagged episodes
+Get a list of tagged episodes
     >> tags = %w(git github)
     >> Buzzsprout.episodes(105, tags)
     => [<#Buzzsprout::Episode artist="Adam Stacoviak and Wynn Netherland" created_at=Mon Jan 25 11:53:02 -0600 2010 date=Mon, 25 Jan 2010 description="Adam and Wynn talk with Chris Wanstrath aka @defunkt from GitHub about the magic of Git, the past, present and future of GitHub, building a bootstrapped startup and some other cool stuff you'll just have to hear for yourself." duration=4675 id=2274 live=true podcast_id=105 s3=true size=37400482 tags="git, github, interview, bootstrapping, business, startups" title="Episode 0.1.0 - Chris Wanstrath from GitHub" updated_at=Mon Jan 25 13:36:42 -0600 2010>]
     
-### Get a single episode
+Get a single episode
     # podcast_id, episode_id
     >> Buzzsprout.episodes(105, 2274)
     => <#Buzzsprout::Episode artist="Adam Stacoviak and Wynn Netherland" created_at=Mon Jan 25 11:53:02 -0600 2010 date=Mon, 25 Jan 2010 description="Adam and Wynn talk with Chris Wanstrath aka @defunkt from GitHub about the magic of Git, the past, present and future of GitHub, building a bootstrapped startup and some other cool stuff you'll just have to hear for yourself." duration=4675 id=2274 live=true podcast_id=105 s3=true size=37400482 tags="git, github, interview, bootstrapping, business, startups" title="Episode 0.1.0 - Chris Wanstrath from GitHub" updated_at=Mon Jan 25 13:36:42 -0600 2010>

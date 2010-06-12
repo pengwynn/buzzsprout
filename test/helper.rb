@@ -2,13 +2,14 @@ require 'test/unit'
 require 'pathname'
 require 'rubygems'
 
-gem 'thoughtbot-shoulda', '>= 2.10.1'
+gem 'shoulda', '>= 2.10.1'
 gem 'jnunemaker-matchy', '0.4.0'
 gem 'fakeweb', '>= 1.2.5'
 
 require 'shoulda'
 require 'matchy'
 require 'fakeweb'
+require 'redgreen'
 
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))

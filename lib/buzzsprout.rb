@@ -1,12 +1,9 @@
 require 'rubygems'
 require 'time'
-gem 'activesupport', '~> 2.3.2'
+
 require 'activesupport'
 
-gem 'hashie', '>= 0.1.3'
 require 'hashie'
-
-gem 'httparty', '>= 0.5.0'
 require 'httparty'
 
 
@@ -33,6 +30,14 @@ module Buzzsprout
   # @return [Episode] A list of episodes matching the query
   def self.episode(podcast_id, episode_id)
     Client.episode(podcast_id, episode_id)
+  end
+  
+  # Retrieve episode details
+  #
+  # @param [Fixnum] url URL of the episode
+  # @return [Episode] A list of episodes matching the query
+  def self.episode_from_url(url)
+    Client.episode_from_url(url)
   end
   
 end

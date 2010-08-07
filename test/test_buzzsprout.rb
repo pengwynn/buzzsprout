@@ -17,6 +17,14 @@ class TestBuzzsprout < Test::Unit::TestCase
       list.last.id.should == 1959
     end
     
+    should "parse an episode url and fetch episode info" do
+      stub_get("/105/12191.json", "episode.json")
+      url = "http://changelogshow.com/105/12191-episode-0-3-0-sencha-touch-with-david-kaneda"
+      ep = Buzzsprout.episode_from_url(url)
+      ep.tags.size.should == 6
+      ep.tags.first.should == 'git'
+    end
+    
     context "when fetching info for a single episode" do
       
       setup do

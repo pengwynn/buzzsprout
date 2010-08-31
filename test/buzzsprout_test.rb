@@ -1,6 +1,6 @@
 require 'helper'
 
-class TestBuzzsprout < Test::Unit::TestCase
+class BuzzsproutTest < Test::Unit::TestCase
   context "When hitting the Buzzsprout API" do
 
     should "return a list of episodes for a podcast" do

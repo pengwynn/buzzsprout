@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'time'
 
-require 'activesupport'
+#require 'active_support'
 
 require 'hashie'
 require 'httparty'
@@ -13,6 +13,8 @@ directory = File.expand_path(File.dirname(__FILE__))
 Hash.send :include, Hashie::HashExtensions
 
 module Buzzsprout
+  
+  VERSION = '0.0.4'.freeze
   
   # List all the episodes for a podcast
   #

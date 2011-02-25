@@ -14,7 +14,7 @@ Hash.send :include, Hashie::HashExtensions
 
 module Buzzsprout
   
-  VERSION = '0.0.4'.freeze
+  VERSION = '0.0.5'.freeze
   
   # List all the episodes for a podcast
   #

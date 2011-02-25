@@ -1,6 +1,6 @@
 source :rubygems
 
-gem 'hashie', '~> 0.2.0'
+gem 'hashie', '~> 1.0.0'
 gem 'httparty', '~> 0.5.2'
 #gem 'activesupport'
 

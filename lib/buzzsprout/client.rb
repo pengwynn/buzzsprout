@@ -1,5 +1,5 @@
 module Buzzsprout
-  
+
   class Client
     include HTTParty
     format :json
@@ -26,7 +26,7 @@ module Buzzsprout
     def self.episode(podcast_id, episode_id)
       Buzzsprout::Episode.new(self.get("/#{podcast_id}/#{episode_id}.json")['episode'])
     end
-    
+
     # Retrieve episode details
     #
     # @param [Fixnum] url URL of the episode
@@ -36,5 +36,5 @@ module Buzzsprout
       self.episode(podcast_id, episode_id)
     end
   end
-  
+
 end

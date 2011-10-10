@@ -1,11 +1,7 @@
-require 'rubygems'
-require 'time'
-
-#require 'active_support'
+# require 'time'
 
 require 'hashie'
 require 'httparty'
-
 
 
 directory = File.expand_path(File.dirname(__FILE__))
@@ -13,9 +9,7 @@ directory = File.expand_path(File.dirname(__FILE__))
 Hash.send :include, Hashie::HashExtensions
 
 module Buzzsprout
-  
-  VERSION = '0.0.5'.freeze
-  
+
   # List all the episodes for a podcast
   #
   # @param [Fixnum] podcast_id The ID for the podcast
@@ -33,7 +27,7 @@ module Buzzsprout
   def self.episode(podcast_id, episode_id)
     Client.episode(podcast_id, episode_id)
   end
-  
+
   # Retrieve episode details
   #
   # @param [Fixnum] url URL of the episode
@@ -41,8 +35,9 @@ module Buzzsprout
   def self.episode_from_url(url)
     Client.episode_from_url(url)
   end
-  
+
 end
 
+require File.join(directory, 'buzzsprout', 'version')
 require File.join(directory, 'buzzsprout', 'episode')
 require File.join(directory, 'buzzsprout', 'client')
